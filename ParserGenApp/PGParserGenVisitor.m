@@ -117,7 +117,13 @@
 
 - (NSString *)templateStringNamed:(NSString *)filename {
     NSError *err = nil;
-    NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:filename ofType:@"txt"];
+
+    NSString *path = [[NSProcessInfo processInfo] environment][@"PG_PARSER_GEN_RES_DIR"];
+    if (path) {
+        path = [[path stringByAppendingPathComponent:filename] stringByAppendingPathExtension:@"txt"];
+    } else {
+        path = [[NSBundle bundleForClass:[self class]] pathForResource:filename ofType:@"txt"];
+    }
     NSString *template = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&err];
     NSAssert([template length], @"");
     if (!template) {

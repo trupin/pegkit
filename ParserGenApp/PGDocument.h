@@ -28,6 +28,8 @@
 - (IBAction)browse:(id)sender;
 - (IBAction)reveal:(id)sender;
 
+- (void)generateWithDestinationPath:(NSString *)destPath parserName:(NSString *)parserName grammar:(NSString *)grammar;
+
 @property (nonatomic, copy) NSString *destinationPath;
 @property (nonatomic, copy) NSString *parserName;
 @property (nonatomic, copy) NSString *grammar;
