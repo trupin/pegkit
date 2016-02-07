@@ -118,8 +118,15 @@
 - (NSString *)templateStringNamed:(NSString *)filename {
     NSError *err = nil;
 
-    NSString *path = [[NSProcessInfo processInfo] environment][@"PG_PARSER_GEN_RES_DIR"];
+    NSString *path = [[NSProcessInfo processInfo] environment][@"PG_WORKING_DIR"];
     if (path) {
+        if (![path hasPrefix:@"/"]) {
+            char *currentDirPathStr = malloc(100);
+            NSString *currentDirPath = [NSString stringWithUTF8String:getcwd(currentDirPathStr, 100)];
+            free(currentDirPathStr);
+            path = [currentDirPath stringByAppendingPathComponent:path];
+        }
+        path = [path stringByAppendingPathComponent:@"res"];
         path = [[path stringByAppendingPathComponent:filename] stringByAppendingPathExtension:@"txt"];
     } else {
         path = [[NSBundle bundleForClass:[self class]] pathForResource:filename ofType:@"txt"];

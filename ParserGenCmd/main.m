@@ -2,15 +2,14 @@
 #import "PGDocument.h"
 #import "PGApp.h"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char *argv[]) {
+    if (argc < 4) {
+        NSLog(@"Usage : ./ParserGenCmd [input_path] [output_dir_path] [parser_name]");
+        return 1;
+    }
+
     int res;
-
     @autoreleasepool {
-        if (argc < 4) {
-            NSLog(@"Usage : ./ParserGenCmd [input_path] [output_dir_path] [parser_name]");
-            return 1;
-        }
-
         NSString *inputPath = [NSString stringWithUTF8String:argv[1]];
         NSString *outputDirPath = [NSString stringWithUTF8String:argv[2]];
         NSString *parserName = [NSString stringWithUTF8String:argv[3]];
@@ -27,12 +26,9 @@ int main(int argc, const char * argv[]) {
             outputDirPath = [currentDirPath stringByAppendingPathComponent:outputDirPath];
         }
 
-        PGApp *app = [PGApp new];
-        res = [app generateWithInputPath:inputPath
-                            outPutDirPath:outputDirPath
-                         outPutParserName:parserName];
-
-        [app release];
+        res = [PGApp generateWithInputPath:inputPath
+                             outPutDirPath:outputDirPath
+                          outPutParserName:parserName];
     }
     return res;
 }

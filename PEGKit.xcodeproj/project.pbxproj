@@ -37,49 +37,6 @@
 		7CF20EF01C661E2900B38E1D /* TDTemplateEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF20EEF1C661E2900B38E1D /* TDTemplateEngine.framework */; };
 		7CF20EF31C661E5D00B38E1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37214CF18DF3BDC00525058 /* Cocoa.framework */; };
 		7CF20EF51C661E6D00B38E1D /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF20EF41C661E6D00B38E1D /* libicucore.tbd */; };
-		7CF20EF71C6623E200B38E1D /* PGClassInterfaceTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A5E1703DB9700446945 /* PGClassInterfaceTemplate.txt */; };
-		7CF20EF81C6623E200B38E1D /* PGClassImplementationTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D302272A17020F9400594F16 /* PGClassImplementationTemplate.txt */; };
-		7CF20EF91C6623E200B38E1D /* PGGrammarActionTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A29E1F18E714EB00DC591E /* PGGrammarActionTemplate.txt */; };
-		7CF20EFA1C6623E200B38E1D /* PGActionTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A3017075C3000BA9DBF /* PGActionTemplate.txt */; };
-		7CF20EFB1C6623E200B38E1D /* PGMethodTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A3517023F1200446945 /* PGMethodTemplate.txt */; };
-		7CF20EFC1C6623E200B38E1D /* PGMethodMemoizationTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D38BC88E1710AF6D00BF530D /* PGMethodMemoizationTemplate.txt */; };
-		7CF20EFD1C6623E200B38E1D /* PGPreCallbackTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3BD395E1729D01F00FC6549 /* PGPreCallbackTemplate.txt */; };
-		7CF20EFE1C6623E200B38E1D /* PGPostCallbackTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3BD39611729D04400FC6549 /* PGPostCallbackTemplate.txt */; };
-		7CF20EFF1C6623E200B38E1D /* PGPreCallbackSyntaxInteriorTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3BD39651729D37600FC6549 /* PGPreCallbackSyntaxInteriorTemplate.txt */; };
-		7CF20F001C6623E200B38E1D /* PGPostCallbackSyntaxInteriorTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3BD39641729D37600FC6549 /* PGPostCallbackSyntaxInteriorTemplate.txt */; };
-		7CF20F011C6623E200B38E1D /* PGPreCallbackSyntaxLeafTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3BD39761729F1DD00FC6549 /* PGPreCallbackSyntaxLeafTemplate.txt */; };
-		7CF20F021C6623E200B38E1D /* PGPostCallbackSyntaxLeafTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3BD39751729F1DD00FC6549 /* PGPostCallbackSyntaxLeafTemplate.txt */; };
-		7CF20F031C6623E200B38E1D /* PGTryAndRecoverTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30DA1971727410700A1A3EC /* PGTryAndRecoverTemplate.txt */; };
-		7CF20F041C6623E200B38E1D /* PGTryAndRecoverEOFTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30DA19A17274BF100A1A3EC /* PGTryAndRecoverEOFTemplate.txt */; };
-		7CF20F051C6623E200B38E1D /* PGMethodCallTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A37170241F500446945 /* PGMethodCallTemplate.txt */; };
-		7CF20F061C6623E200B38E1D /* PGEOFCallTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30DA1941727059C00A1A3EC /* PGEOFCallTemplate.txt */; };
-		7CF20F071C6623E200B38E1D /* PGConstantMethodCallTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30DA18E1725CBE000A1A3EC /* PGConstantMethodCallTemplate.txt */; };
-		7CF20F081C6623E200B38E1D /* PGMethodSpeculateTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3083ABD1705F73500DA6F95 /* PGMethodSpeculateTemplate.txt */; };
-		7CF20F091C6623E200B38E1D /* PGMatchCallTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A3B170264FD00446945 /* PGMatchCallTemplate.txt */; };
-		7CF20F0A1C6623E200B38E1D /* PGMatchDelimitedStringTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30B8F5F170D011E001796F4 /* PGMatchDelimitedStringTemplate.txt */; };
-		7CF20F0B1C6623E200B38E1D /* PGPatternPrefixTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30B8F6B170D111B001796F4 /* PGPatternPrefixTemplate.txt */; };
-		7CF20F0C1C6623E200B38E1D /* PGMatchPatternTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30B8F61170D0E71001796F4 /* PGMatchPatternTemplate.txt */; };
-		7CF20F0D1C6623E200B38E1D /* PGSemanticPredicateTestExprTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A3A1708C80600BA9DBF /* PGSemanticPredicateTestExprTemplate.txt */; };
-		7CF20F0E1C6623E200B38E1D /* PGSemanticPredicateTestStatTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A3C1708C98B00BA9DBF /* PGSemanticPredicateTestStatTemplate.txt */; };
-		7CF20F0F1C6623E200B38E1D /* PGSemanticPredicateTestAndThrowExprTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A5017091FCA00BA9DBF /* PGSemanticPredicateTestAndThrowExprTemplate.txt */; };
-		7CF20F101C6623E200B38E1D /* PGSemanticPredicateTestAndThrowStatTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A5117091FCB00BA9DBF /* PGSemanticPredicateTestAndThrowStatTemplate.txt */; };
-		7CF20F111C6623E200B38E1D /* PGPredictIfTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A3F17026FBE00446945 /* PGPredictIfTemplate.txt */; };
-		7CF20F121C6623E200B38E1D /* PGSpeculateIfTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A231706508400BA9DBF /* PGSpeculateIfTemplate.txt */; };
-		7CF20F131C6623E200B38E1D /* PGPredictElseIfTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A3D17026FBE00446945 /* PGPredictElseIfTemplate.txt */; };
-		7CF20F141C6623E200B38E1D /* PGSpeculateElseIfTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A251706509800BA9DBF /* PGSpeculateElseIfTemplate.txt */; };
-		7CF20F151C6623E200B38E1D /* PGPredictElseTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A3E17026FBE00446945 /* PGPredictElseTemplate.txt */; };
-		7CF20F161C6623E200B38E1D /* PGElseEmptyTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D31BBCB618E482C60003FFA3 /* PGElseEmptyTemplate.txt */; };
-		7CF20F171C6623E200B38E1D /* PGPredictEndIfTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A4E170918E700BA9DBF /* PGPredictEndIfTemplate.txt */; };
-		7CF20F181C6623E200B38E1D /* PGOptionalSpeculateTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A431702993B00446945 /* PGOptionalSpeculateTemplate.txt */; };
-		7CF20F191C6623E200B38E1D /* PGOptionalPredictTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A76170A460800BA9DBF /* PGOptionalPredictTemplate.txt */; };
-		7CF20F1A1C6623E200B38E1D /* PGMultipleSpeculateTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A481702A11600446945 /* PGMultipleSpeculateTemplate.txt */; };
-		7CF20F1B1C6623E200B38E1D /* PGMultiplePredictTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A471702A11600446945 /* PGMultiplePredictTemplate.txt */; };
-		7CF20F1C1C6623E200B38E1D /* PGRepetitionSpeculateTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B22A4C1702A1F800446945 /* PGRepetitionSpeculateTemplate.txt */; };
-		7CF20F1D1C6623E200B38E1D /* PGRepetitionPredictTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A6C170A1F6C00BA9DBF /* PGRepetitionPredictTemplate.txt */; };
-		7CF20F1E1C6623E200B38E1D /* PGNegationSpeculateTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30B8F4B170CFB93001796F4 /* PGNegationSpeculateTemplate.txt */; };
-		7CF20F1F1C6623E200B38E1D /* PGNegationPredictTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = D30B8F4D170CFBCC001796F4 /* PGNegationPredictTemplate.txt */; };
-		7CF20F201C66256700B38E1D /* expressionActions.grammar in Resources */ = {isa = PBXBuildFile; fileRef = D3B63A3517079F7A00BA9DBF /* expressionActions.grammar */; };
-		7CF20F211C66256700B38E1D /* expression.grammar in Resources */ = {isa = PBXBuildFile; fileRef = D3B986AD1700D3A9000CBCAE /* expression.grammar */; };
 		CC6F8996079EBB717E2B1660 /* PGApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8FACDB40E020EEC88AC0 /* PGApp.m */; };
 		D306298218E1ED5D00EF745E /* TDTestScaffold.m in Sources */ = {isa = PBXBuildFile; fileRef = D306298118E1ED5D00EF745E /* TDTestScaffold.m */; };
 		D3083AB61705F05C00DA6F95 /* elementsAssign.grammar in Resources */ = {isa = PBXBuildFile; fileRef = D3083AB51705F05C00DA6F95 /* elementsAssign.grammar */; };
@@ -1687,7 +1644,6 @@
 			buildPhases = (
 				7CF20EC21C66078300B38E1D /* Sources */,
 				7CF20EC31C66078300B38E1D /* Frameworks */,
-				7CF20EF61C6623D200B38E1D /* Resources */,
 				7CF20EC41C66078300B38E1D /* CopyFiles */,
 			);
 			buildRules = (
@@ -1834,56 +1790,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7CF20EF61C6623D200B38E1D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CF20F201C66256700B38E1D /* expressionActions.grammar in Resources */,
-				7CF20F211C66256700B38E1D /* expression.grammar in Resources */,
-				7CF20EF71C6623E200B38E1D /* PGClassInterfaceTemplate.txt in Resources */,
-				7CF20EF81C6623E200B38E1D /* PGClassImplementationTemplate.txt in Resources */,
-				7CF20EF91C6623E200B38E1D /* PGGrammarActionTemplate.txt in Resources */,
-				7CF20EFA1C6623E200B38E1D /* PGActionTemplate.txt in Resources */,
-				7CF20EFB1C6623E200B38E1D /* PGMethodTemplate.txt in Resources */,
-				7CF20EFC1C6623E200B38E1D /* PGMethodMemoizationTemplate.txt in Resources */,
-				7CF20EFD1C6623E200B38E1D /* PGPreCallbackTemplate.txt in Resources */,
-				7CF20EFE1C6623E200B38E1D /* PGPostCallbackTemplate.txt in Resources */,
-				7CF20EFF1C6623E200B38E1D /* PGPreCallbackSyntaxInteriorTemplate.txt in Resources */,
-				7CF20F001C6623E200B38E1D /* PGPostCallbackSyntaxInteriorTemplate.txt in Resources */,
-				7CF20F011C6623E200B38E1D /* PGPreCallbackSyntaxLeafTemplate.txt in Resources */,
-				7CF20F021C6623E200B38E1D /* PGPostCallbackSyntaxLeafTemplate.txt in Resources */,
-				7CF20F031C6623E200B38E1D /* PGTryAndRecoverTemplate.txt in Resources */,
-				7CF20F041C6623E200B38E1D /* PGTryAndRecoverEOFTemplate.txt in Resources */,
-				7CF20F051C6623E200B38E1D /* PGMethodCallTemplate.txt in Resources */,
-				7CF20F061C6623E200B38E1D /* PGEOFCallTemplate.txt in Resources */,
-				7CF20F071C6623E200B38E1D /* PGConstantMethodCallTemplate.txt in Resources */,
-				7CF20F081C6623E200B38E1D /* PGMethodSpeculateTemplate.txt in Resources */,
-				7CF20F091C6623E200B38E1D /* PGMatchCallTemplate.txt in Resources */,
-				7CF20F0A1C6623E200B38E1D /* PGMatchDelimitedStringTemplate.txt in Resources */,
-				7CF20F0B1C6623E200B38E1D /* PGPatternPrefixTemplate.txt in Resources */,
-				7CF20F0C1C6623E200B38E1D /* PGMatchPatternTemplate.txt in Resources */,
-				7CF20F0D1C6623E200B38E1D /* PGSemanticPredicateTestExprTemplate.txt in Resources */,
-				7CF20F0E1C6623E200B38E1D /* PGSemanticPredicateTestStatTemplate.txt in Resources */,
-				7CF20F0F1C6623E200B38E1D /* PGSemanticPredicateTestAndThrowExprTemplate.txt in Resources */,
-				7CF20F101C6623E200B38E1D /* PGSemanticPredicateTestAndThrowStatTemplate.txt in Resources */,
-				7CF20F111C6623E200B38E1D /* PGPredictIfTemplate.txt in Resources */,
-				7CF20F121C6623E200B38E1D /* PGSpeculateIfTemplate.txt in Resources */,
-				7CF20F131C6623E200B38E1D /* PGPredictElseIfTemplate.txt in Resources */,
-				7CF20F141C6623E200B38E1D /* PGSpeculateElseIfTemplate.txt in Resources */,
-				7CF20F151C6623E200B38E1D /* PGPredictElseTemplate.txt in Resources */,
-				7CF20F161C6623E200B38E1D /* PGElseEmptyTemplate.txt in Resources */,
-				7CF20F171C6623E200B38E1D /* PGPredictEndIfTemplate.txt in Resources */,
-				7CF20F181C6623E200B38E1D /* PGOptionalSpeculateTemplate.txt in Resources */,
-				7CF20F191C6623E200B38E1D /* PGOptionalPredictTemplate.txt in Resources */,
-				7CF20F1A1C6623E200B38E1D /* PGMultipleSpeculateTemplate.txt in Resources */,
-				7CF20F1B1C6623E200B38E1D /* PGMultiplePredictTemplate.txt in Resources */,
-				7CF20F1C1C6623E200B38E1D /* PGRepetitionSpeculateTemplate.txt in Resources */,
-				7CF20F1D1C6623E200B38E1D /* PGRepetitionPredictTemplate.txt in Resources */,
-				7CF20F1E1C6623E200B38E1D /* PGNegationSpeculateTemplate.txt in Resources */,
-				7CF20F1F1C6623E200B38E1D /* PGNegationPredictTemplate.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D338302D171C923700CCE513 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
